@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0483C2A916D7327F007677E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483C2A816D7327F007677E2 /* UIKit.framework */; };
+		0483C2AB16D7327F007677E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483C2AA16D7327F007677E2 /* Foundation.framework */; };
+		0483C2AD16D7327F007677E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483C2AC16D7327F007677E2 /* CoreGraphics.framework */; };
+		0483C2B316D7327F007677E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0483C2B116D7327F007677E2 /* InfoPlist.strings */; };
+		0483C2B516D7327F007677E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483C2B416D7327F007677E2 /* main.m */; };
+		0483C2B916D7327F007677E2 /* HCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483C2B816D7327F007677E2 /* HCAppDelegate.m */; };
+		0483C2BB16D7327F007677E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0483C2BA16D7327F007677E2 /* Default.png */; };
+		0483C2BD16D7327F007677E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0483C2BC16D7327F007677E2 /* Default@2x.png */; };
+		0483C2BF16D7327F007677E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0483C2BE16D7327F007677E2 /* Default-568h@2x.png */; };
+		0483C2C216D7327F007677E2 /* HCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483C2C116D7327F007677E2 /* HCViewController.m */; };
+		0483C2C516D7327F007677E2 /* HCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0483C2C316D7327F007677E2 /* HCViewController.xib */; };
+		0483C2CD16D73333007677E2 /* UIViewController+HCPushBackAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483C2CC16D73333007677E2 /* UIViewController+HCPushBackAnimation.m */; };
+		0483C2CF16D73627007677E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483C2CE16D73627007677E2 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0483C2A516D7327F007677E2 /* PushBackAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushBackAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0483C2A816D7327F007677E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0483C2AA16D7327F007677E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0483C2AC16D7327F007677E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0483C2B016D7327F007677E2 /* PushBackAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushBackAnimation-Info.plist"; sourceTree = "<group>"; };
+		0483C2B216D7327F007677E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0483C2B416D7327F007677E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0483C2B616D7327F007677E2 /* PushBackAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushBackAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		0483C2B716D7327F007677E2 /* HCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCAppDelegate.h; sourceTree = "<group>"; };
+		0483C2B816D7327F007677E2 /* HCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCAppDelegate.m; sourceTree = "<group>"; };
+		0483C2BA16D7327F007677E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0483C2BC16D7327F007677E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0483C2BE16D7327F007677E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0483C2C016D7327F007677E2 /* HCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCViewController.h; sourceTree = "<group>"; };
+		0483C2C116D7327F007677E2 /* HCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCViewController.m; sourceTree = "<group>"; };
+		0483C2C416D7327F007677E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HCViewController.xib; sourceTree = "<group>"; };
+		0483C2CB16D73333007677E2 /* UIViewController+HCPushBackAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HCPushBackAnimation.h"; sourceTree = "<group>"; };
+		0483C2CC16D73333007677E2 /* UIViewController+HCPushBackAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HCPushBackAnimation.m"; sourceTree = "<group>"; };
+		0483C2CE16D73627007677E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0483C2A216D7327F007677E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483C2CF16D73627007677E2 /* QuartzCore.framework in Frameworks */,
+				0483C2A916D7327F007677E2 /* UIKit.framework in Frameworks */,
+				0483C2AB16D7327F007677E2 /* Foundation.framework in Frameworks */,
+				0483C2AD16D7327F007677E2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0483C29C16D7327F007677E2 = {
+			isa = PBXGroup;
+			children = (
+				0483C2AE16D7327F007677E2 /* PushBackAnimation */,
+				0483C2A716D7327F007677E2 /* Frameworks */,
+				0483C2A616D7327F007677E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0483C2A616D7327F007677E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0483C2A516D7327F007677E2 /* PushBackAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0483C2A716D7327F007677E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0483C2CE16D73627007677E2 /* QuartzCore.framework */,
+				0483C2A816D7327F007677E2 /* UIKit.framework */,
+				0483C2AA16D7327F007677E2 /* Foundation.framework */,
+				0483C2AC16D7327F007677E2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0483C2AE16D7327F007677E2 /* PushBackAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0483C2B716D7327F007677E2 /* HCAppDelegate.h */,
+				0483C2B816D7327F007677E2 /* HCAppDelegate.m */,
+				0483C2C016D7327F007677E2 /* HCViewController.h */,
+				0483C2C116D7327F007677E2 /* HCViewController.m */,
+				0483C2C316D7327F007677E2 /* HCViewController.xib */,
+				0483C2AF16D7327F007677E2 /* Supporting Files */,
+				0483C2CB16D73333007677E2 /* UIViewController+HCPushBackAnimation.h */,
+				0483C2CC16D73333007677E2 /* UIViewController+HCPushBackAnimation.m */,
+			);
+			path = PushBackAnimation;
+			sourceTree = "<group>";
+		};
+		0483C2AF16D7327F007677E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0483C2B016D7327F007677E2 /* PushBackAnimation-Info.plist */,
+				0483C2B116D7327F007677E2 /* InfoPlist.strings */,
+				0483C2B416D7327F007677E2 /* main.m */,
+				0483C2B616D7327F007677E2 /* PushBackAnimation-Prefix.pch */,
+				0483C2BA16D7327F007677E2 /* Default.png */,
+				0483C2BC16D7327F007677E2 /* Default@2x.png */,
+				0483C2BE16D7327F007677E2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0483C2A416D7327F007677E2 /* PushBackAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0483C2C816D7327F007677E2 /* Build configuration list for PBXNativeTarget "PushBackAnimation" */;
+			buildPhases = (
+				0483C2A116D7327F007677E2 /* Sources */,
+				0483C2A216D7327F007677E2 /* Frameworks */,
+				0483C2A316D7327F007677E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushBackAnimation;
+			productName = PushBackAnimation;
+			productReference = 0483C2A516D7327F007677E2 /* PushBackAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0483C29D16D7327F007677E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tictoc Planet, Inc.";
+			};
+			buildConfigurationList = 0483C2A016D7327F007677E2 /* Build configuration list for PBXProject "PushBackAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0483C29C16D7327F007677E2;
+			productRefGroup = 0483C2A616D7327F007677E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0483C2A416D7327F007677E2 /* PushBackAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0483C2A316D7327F007677E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483C2B316D7327F007677E2 /* InfoPlist.strings in Resources */,
+				0483C2BB16D7327F007677E2 /* Default.png in Resources */,
+				0483C2BD16D7327F007677E2 /* Default@2x.png in Resources */,
+				0483C2BF16D7327F007677E2 /* Default-568h@2x.png in Resources */,
+				0483C2C516D7327F007677E2 /* HCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0483C2A116D7327F007677E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483C2B516D7327F007677E2 /* main.m in Sources */,
+				0483C2B916D7327F007677E2 /* HCAppDelegate.m in Sources */,
+				0483C2C216D7327F007677E2 /* HCViewController.m in Sources */,
+				0483C2CD16D73333007677E2 /* UIViewController+HCPushBackAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0483C2B116D7327F007677E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0483C2B216D7327F007677E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0483C2C316D7327F007677E2 /* HCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0483C2C416D7327F007677E2 /* en */,
+			);
+			name = HCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0483C2C616D7327F007677E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0483C2C716D7327F007677E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0483C2C916D7327F007677E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushBackAnimation/PushBackAnimation-Prefix.pch";
+				INFOPLIST_FILE = "PushBackAnimation/PushBackAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0483C2CA16D7327F007677E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushBackAnimation/PushBackAnimation-Prefix.pch";
+				INFOPLIST_FILE = "PushBackAnimation/PushBackAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0483C2A016D7327F007677E2 /* Build configuration list for PBXProject "PushBackAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0483C2C616D7327F007677E2 /* Debug */,
+				0483C2C716D7327F007677E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0483C2C816D7327F007677E2 /* Build configuration list for PBXNativeTarget "PushBackAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0483C2C916D7327F007677E2 /* Debug */,
+				0483C2CA16D7327F007677E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0483C29D16D7327F007677E2 /* Project object */;
+}
